@@ -42,11 +42,9 @@ class ParseData{
 CREATE TABLE IF NOT EXISTS region(
 	id INT NOT NULL,
 	name VARCHAR(50) NOT NULL,
-	capital_id INT NOT NULL,
 	area INT NOT NULL DEFAULT 0,
 	population INT NOT NULL DEFAULT 0,
-	PRIMARY KEY (id),
-	FOREIGN KEY capital_city_fk (capital_id) REFERENCES city(id)
+	PRIMARY KEY (id)
 	)
 SQL
 			);
@@ -60,15 +58,13 @@ SQL
 		$stmt = $this->dbLocal->prepare(<<<SQL
 
 CREATE TABLE IF NOT EXISTS department(
-	id INT NOT NULL,
+	id VARCHAR(3) NOT NULL,
 	name VARCHAR(50) NOT NULL,
 	population INT NOT NULL DEFAULT 0,
 	area INT NOT NULL DEFAULT 0,
-	city_id INT NOT NULL,
-	region_id INT NOT NULL,
+	reg_id INT NOT NULL,
 	PRIMARY KEY(id),
-	FOREIGN KEY city_fk (city_id) REFERENCES city(id),
-	FOREIGN KEY region_fk (region_id) REFERENCES region(id) 
+	FOREIGN KEY (reg_id) REFERENCES region(id) 
 	)
 SQL
 			);
@@ -82,10 +78,14 @@ SQL
 		$stmt = $this->dbLocal->prepare(<<<SQL
 
 CREATE TABLE IF NOT EXISTS city(
-	id INT NOT NULL,
+	id INT NOT NULL AUTO_INCREMENT,
+	dept_id VARCHAR(3) NOT NULL DEFAULT 1,
+	reg_id INT NOT NULL DEFAULT 1,
 	name VARCHAR(50) NOT NULL,
 	population INT NOT NULL DEFAULT 0,
-	PRIMARY KEY(id)
+	PRIMARY KEY(id),
+	FOREIGN KEY (dept_id) REFERENCES department(id),
+	FOREIGN KEY (reg_id) REFERENCES region(id) 
 	)
 SQL
 			);
@@ -99,9 +99,9 @@ SQL
 		$this->createDb();
 		$this->connectDb();
 		
-		$this->createTableCity();
 		$this->createTableRegion();
 		$this->createTableDepartment();
+		$this->createTableCity();
 		return 0;
 	}
 }
