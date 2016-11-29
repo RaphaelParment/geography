@@ -1,101 +1,102 @@
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bourg-en-Bresse',40490,1);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Laon',25219,2);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Moulins',19474,3);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Digne-les-Bains',16512,4);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Gap',40255,5);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nice',342295,6);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Privas',8305,7);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Charleville-Mézières',48991,8);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Foix',9731,9);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Troyes',59671,10);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Carcassonne',46724,11);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Rodez',23741,12);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Marseille',855393,13);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Caen',107229,14);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Aurillac',26572,15);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Angoulême',41970,16);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('La Rochelle',74344,17);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bourges',67189,18);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Tulle',14323,19);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Ajaccio',67507,2);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bastia',42254,2);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Dijon',153003,21);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Saint-Brieuc',45331,22);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Guéret',13143,23);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Périgueux',30036,24);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Besançon',116952,25);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Valence',61767,26);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Évreux',49722,27);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Chartres',38840,28);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Quimper',63532,29);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nîmes',150564,30);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Toulouse',458298,31);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Auch',21962,32);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bordeaux',243626,33);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Montpellier',272084,34);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Rennes',211373,35);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Châteauroux',45209,36);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Tours',134803,37);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Grenoble',160215,38);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Lons-le-Saunier',17063,39);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Mont-de-Marsan',31334,40);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Blois',45539,41);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Saint-Étienne',172023,42);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Le Puy-en-Velay',18619,43);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nantes',292718,44);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Orléans',114375,45);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Cahors',19616,46);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Agen',34344,47);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Mende',11679,48);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Angers',150125,49);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Saint-Lô',19285,50);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Châlons-en-Champagne',44899,51);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Chaumont',22560,52);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Laval',50479,53);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nancy',104072,54);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bar-le-Duc',15950,55);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Vannes',53032,56);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Metz',118634,57);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nevers',34841,58);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Lille',231491,59);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Beauvais',55252,60);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Alençon',26350,61);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Arras',40830,62);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Clermont-Ferrand',141463,63);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Pau',77575,64);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Tarbes',41062,65);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Perpignan',120959,66);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Strasbourg',275718,67);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Colmar',67956,68);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Lyon',500715,69);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Vesoul',15473,70);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Mâcon',33350,71);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Le Mans',144244,72);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Chambéry',58653,73);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Annecy',52029,74);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Paris',2229621,75);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Rouen',110755,76);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Melun',40066,77);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Versailles',85272,78);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Niort',57393,79);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Amiens',132699,80);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Albi',49342,81);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Montauban',57921,82);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Toulon',163760,83);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Avignon',90305,84);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('La Roche-sur-Yon',52732,85);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Poitiers',87427,86);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Limoges',135098,87);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Épinal',32188,88);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Auxerre',34869,89);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Belfort',50196,90);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Évry',53237,91);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Nanterre',92227,92);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Bobigny',49802,93);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Créteil',89989,94);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Cergy',61708,95);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Basse-Terre',11150,971);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Fort-de-France',84174,972);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Cayenne',54709,973);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Saint-Denis',142442,974);
-INSERT INTO `city` (`name`,`population`,`department_id`) VALUES ('Mamoudzou',57281,976);
+INSERT INTO city (dept_id, name, population) VALUES 
+('01','Bourg-en-Bresse',40490),
+('02','Laon',25219),
+('03','Moulins',19474),
+('04','Digne-les-Bains',16512),
+('05','Gap',40255),
+('06','Nice',342295),
+('07','Privas',8305),
+('08','Charleville-Mézières',48991),
+('09','Foix',9731),
+('10','Troyes',59671),
+('11','Carcassonne',46724),
+('12','Rodez',23741),
+('13','Marseille',855393),
+('14','Caen',107229),
+('15','Aurillac',26572),
+('16','Angoulême',41970),
+('17','La Rochelle',74344),
+('18','Bourges',67189),
+('19','Tulle',14323),
+('2A','Ajaccio',67507),
+('2B','Bastia',42254),
+('21','Dijon',153003),
+('22','Saint-Brieuc',45331),
+('23','Guéret',13143),
+('24','Périgueux',30036),
+('25','Besançon',116952),
+('26','Valence',61767),
+('27','Évreux',49722),
+('28','Chartres',38840),
+('29','Quimper',63532),
+('30','Nîmes',150564),
+('31','Toulouse',458298),
+('32','Auch',21962),
+('33','Bordeaux',243626),
+('34','Montpellier',272084),
+('35','Rennes',211373),
+('36','Châteauroux',45209),
+('37','Tours',134803),
+('38','Grenoble',160215),
+('39','Lons-le-Saunier',17063),
+('40','Mont-de-Marsan',31334),
+('41','Blois',45539),
+('42','Saint-Étienne',172023),
+('43','Le Puy-en-Velay',18619),
+('44','Nantes',292718),
+('45','Orléans',114375),
+('46','Cahors',19616),
+('47','Agen',34344),
+('48','Mende',11679),
+('49','Angers',150125),
+('50','Saint-Lô',19285),
+('51','Châlons-en-Champagne',44899),
+('52','Chaumont',22560),
+('53','Laval',50479),
+('54','Nancy',104072),
+('55','Bar-le-Duc',15950),
+('56','Vannes',53032),
+('57','Metz',118634),
+('58','Nevers',34841),
+('59','Lille',231491),
+('60','Beauvais',55252),
+('61','Alençon',26350),
+('62','Arras',40830),
+('63','Clermont-Ferrand',141463),
+('64','Pau',77575),
+('65','Tarbes',41062),
+('66','Perpignan',120959),
+('67','Strasbourg',275718),
+('68','Colmar',67956),
+('69','Lyon',500715),
+('70','Vesoul',15473),
+('71','Mâcon',33350),
+('72','Le Mans',144244),
+('73','Chambéry',58653),
+('74','Annecy',52029),
+('75','Paris',2229621),
+('76','Rouen',110755),
+('77','Melun',40066),
+('78','Versailles',85272),
+('79','Niort',57393),
+('80','Amiens',132699),
+('81','Albi',49342),
+('82','Montauban',57921),
+('83','Toulon',163760),
+('84','Avignon',90305),
+('85','La Roche-sur-Yon',52732),
+('86','Poitiers',87427),
+('87','Limoges',135098),
+('88','Épinal',32188),
+('89','Auxerre',34869),
+('90','Belfort',50196),
+('91','Évry',53237),
+('92','Nanterre',92227),
+('93','Bobigny',49802),
+('94','Créteil',89989),
+('95','Cergy',61708),
+('971','Basse-Terre',11150),
+('972','Fort-de-France',84174),
+('973','Cayenne',54709),
+('974','Saint-Denis',142442),
+('976','Mamoudzou',57281);
